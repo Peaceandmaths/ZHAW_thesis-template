@@ -38,19 +38,29 @@
 
 \vspace{0.75cm}
 
-\begin{minipage}[t]{0.50\textwidth}
+\begin{minipage}[t]{0.33\textwidth}
 \begin{flushleft} 
 \emph{Supervisor 1:}\\
 \supinfoA
 \end{flushleft}
 \end{minipage}
-\begin{minipage}[t]{0.45\textwidth}
+\begin{minipage}[t]{0.33\textwidth}
 \begin{flushleft} 
 \ifdefempty{\supnameB}
 {}
 {
     \emph{Supervisor 2:}\\
     \supinfoB
+}
+\end{flushleft}
+\end{minipage}
+\begin{minipage}[t]{0.33\textwidth}
+\begin{flushleft}
+\ifdefempty{\supnameC}
+{}
+{
+    \emph{Supervisor 3:}\\
+    \supinfoC
 }
 \end{flushleft}
 \end{minipage}

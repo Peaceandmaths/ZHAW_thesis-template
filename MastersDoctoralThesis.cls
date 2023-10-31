@@ -237,6 +237,10 @@
 \NewDocumentCommand{\supervisorBmail}{m}{\newcommand{\supmailB}{#1}}
 \NewDocumentCommand{\supervisorBweb}{m}{\newcommand{\supwebB}{#1}}
 \NewDocumentCommand{\supervisorBinfo}{m}{\newcommand{\supinfoB}{#1}}
+\NewDocumentCommand{\supervisorC}{m}{\newcommand{\supnameC}{#1}}
+\NewDocumentCommand{\supervisorCmail}{m}{\newcommand{\supmailC}{#1}}
+\NewDocumentCommand{\supervisorCweb}{m}{\newcommand{\supwebC}{#1}}
+\NewDocumentCommand{\supervisorCinfo}{m}{\newcommand{\supinfoC}{#1}}
 \NewDocumentCommand{\examiner}{m}{\newcommand{\examname}{#1}}
 \NewDocumentCommand{\degree}{m}{\newcommand{\degreename}{#1}}
 \NewDocumentCommand{\studyprogram}{m}{\newcommand{\studyprog}{#1}}
